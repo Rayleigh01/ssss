@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Signup</title>
+   <link rel="stylesheet" href="stylefinal.css"/>
+   <script type="text/javascript">
+    var clevertap = {event:[], profile:[], account:[], onUserLogin:[], notifications:[], privacy:[]};
+// replace with the CLEVERTAP_ACCOUNT_ID with the actual ACCOUNT ID value from your Dashboard -> Settings page
+clevertap.account.push({"id": "Z44-Z4K-K65Z"});
+clevertap.privacy.push({optOut: false}); //set the flag to true, if the user of the device opts out of sharing their data
+clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agrees to share their IP data
+(function () {
+        var wzrk = document.createElement('script');
+        wzrk.type = 'text/javascript';
+        wzrk.async = true;
+        wzrk.src = ('https:' == document.location.protocol ? 'https://d2r1yp2w7bby2u.cloudfront.net' : 'http://static.clevertap.com') + '/js/a.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wzrk, s);
+ })();
+</script>
+   </head>
+   <body>
+   
+   
+<div class="container">
+	<div class="header">
+		<h2>Create Account</h2>
+	</div>
+	<form id="form" class="user-form">
+		<div class="form-control">
+			<label for="username">Username</label>
+			<input class="username-input" type="text" placeholder="xyz" />  
+			
+		</div>
+		<div class="form-control">
+			<label for="email">Email</label>
+			<input type="email" placeholder="a@bcd.com" class="email-input" />
+			
+		</div>
+        <div class="form-control">
+			<label for="phNumber">Phonenumber</label>
+			<input class="phNumber-input" type="Phone number" placeholder="1234567891"/>
+			
+		</div>
+        <div class="form-control">
+			<label for="dob">Date of Birth</label>
+			<input class="dob-input" type="date" placeholder="dd/mm/yyyy"/>
+			
+		</div>
+		
+		
+		<button class="login-button">Login</button>
+	</form>
+    <button class="profile-push-button">Profile Push</button>
+    <button class="raise-event-button">Raise Event</button>
+    <script src="script.js"></script>
+
+</div>
+</body>
+</html>
+
+
