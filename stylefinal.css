@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: #9b59b6;
+	background-image: linear-gradient(to left bottom, #456aa1, #2c8fb2, #56b0b2, #96ccb0, #d8e5bc);
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 	align-items: center;
