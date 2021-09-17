@@ -13,7 +13,7 @@ const formName = document.querySelector('.user-form');
             const phNumber = formName.querySelector('.phNumber-input').value;
             const dob = formName.querySelector('.dob-input').value;
             console.log(username, email, phNumber, dob);
-            
+            alert("submitted");
             clevertap.onUserLogin.push({
                 "Site": {
                     "Name": username,            // use the Name variable
