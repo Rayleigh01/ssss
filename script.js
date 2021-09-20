@@ -29,7 +29,8 @@ const formName = document.querySelector('.user-form');
             const email = formName.querySelector('.email-input').value;
             const phNumber = formName.querySelector('.phNumber-input').value;
             const dob = formName.querySelector('.dob-input').value;
-
+                
+            alert(username+" "+"your profile data is stored");    
             clevertap.profile.push({
                 "Site": {
                   "Name": username,           // use the Name variable
